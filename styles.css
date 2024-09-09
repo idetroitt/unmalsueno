@@ -11,19 +11,19 @@ h1{
     padding: 20px 40px;
     font-size: 40px;
     text-align: center;
-    border-bottom: 2px solid white;
     border-radius: 10px;
     background: linear-gradient(rgb(87, 80, 80), transparent);
 
 }
 h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: rgba(179, 157, 157, 0.075);
+    background: rgba(167, 151, 151, 0.39);
     padding: 20px 40px;
     font-size: 30px;
     text-align: center;
-    border-bottom: 2px solid white;
-    border-radius: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: linear-gradient(transparent, rgba(141, 135, 135, 0.384))
     
     
 }
@@ -44,7 +44,6 @@ p{
     padding: 10px;
     text-align: center;
     background: rgba(245, 245, 245, 0.075);
-    
     border-radius: 10px;
     box-shadow: 0 0 5px rgb(0, 0, 0);
     background: linear-gradient(rgb(109, 98, 98), transparent);
@@ -60,12 +59,11 @@ a{
     text-decoration: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    border-radius: 10px;
+    border-radius: 4px;
     height: 10px;
     width: 10px;
     box-shadow: 0 0 10px wheat;
+
     
     
 }
@@ -76,7 +74,7 @@ div{
 .center{
     text-align: center;
     color: wheat;
-    box-shadow: 0 0 8px black;
+    box-shadow: 0 0 8px rgb(236, 228, 228);
 }
 
 .box{
